@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Familiada Multiplayer:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Familiada_Multiplayer_jar</output-path>
+    <root id="archive" name="Familiada Multiplayer.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../Familiada (BETA)/Gra od nowa/Multiplayer_content/JavaFX Chat/src/com/chat/client/out/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Familiada Multiplayer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JSONCONNOR/json-20190722.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

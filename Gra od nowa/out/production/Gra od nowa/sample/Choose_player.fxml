@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Multiplayer">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="player2" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#run_player" prefHeight="25.0" prefWidth="122.0" text="Gracz 2 " translateX="-62.0" translateY="53.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Button fx:id="Exit" mnemonicParsing="false" onAction="#setExit" prefHeight="25.0" prefWidth="187.0" text="Anuluj" translateX="241.0" GridPane.rowIndex="2" />
+      <Button fx:id="serverprovider" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#run_server" prefHeight="25.0" prefWidth="127.0" text="Prowadzący (Serwer)" translateX="-64.0" translateY="54.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label prefHeight="17.0" prefWidth="165.0" text="  Wybierz swoją rolę." GridPane.columnIndex="2" />
+   </children>
+</GridPane>
